@@ -1,0 +1,58 @@
+
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+/* 轮播广告 */
+
+        .carousel .item {
+            height: 540px;
+            background-color: #000;
+        }
+
+        .carousel .item img {
+            width: 100%;
+			border:0;
+        }
+
+#divLogin{
+    top: 15%;
+    left: 35%;
+width:350px;
+height:180px;
+border:solid 1px #A9A9A9;
+padding:5px 3px;
+opacity:0.8;
+border-radius:10px;
+font-family:"微软雅黑";
+position: absolute;
+}
+.font{
+margin:10px;
+}
+.txt{
+height:30px;
+line-height:30px;
+width:250px;
+}
+#txtPass{
+margin-top:5px;
+}
+#content{
+text-align:center;
+}
+.btn{
+width:55px;
+height:30px;
+margin-top:7px;
+border-radius:2px;
+font-size:15px;
+}
+.btn:hover,.btn:active{
+background:#708090;
+}
+.clsTip{
+width:350px;
+height:30px;
+}

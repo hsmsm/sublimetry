@@ -1,0 +1,239 @@
+body{
+            padding-top: 50px;
+            padding-bottom: 40px;
+            color: #5a5a5a;
+        }
+   .bg{
+   	height: 600px;
+   }
+  .img{
+  	width: 100%;
+  	height: 100%;
+  }
+ 
+.service{
+	width: 100%;
+	height: 650px;
+	background-color:#fff;
+	margin-top:-48px;
+}
+.service-left{
+	float: left;
+	margin-top: 40px;
+}
+.service-left h2{
+	font-weight: 600;
+	font-size: 38px;
+	margin: 50px 50px;
+}
+.service-left p{
+	margin-left: 50px;
+	font-size: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+.service-left button{
+	margin-top: 250px;
+	margin-left: 50px;
+}
+.service-center{
+	margin-top: 100px;
+}
+.service-center h2{
+	font-weight: 1000;
+	font-size:60px;
+	margin: 60px 80px;
+}
+.price{
+	float: right;
+	margin:-20px 10px 50px 290px;
+	text-align: right;
+	font-size: 20px;
+	font-weight: 300;
+	height: 20px;
+	line-height: 20px;
+}
+.service-center-p{
+	float: right;
+	margin:60px 10px 60px 150px;
+	text-align: right;
+}
+.service-center-p p{
+	margin-left: 50px;
+	font-size: 20px;
+	height: 20px;
+	line-height: 20px;
+}
+.service-right{
+	margin-top: 90px;
+}
+.service-right h2{
+	font-weight: 600;
+	font-size: 38px;
+	margin: 50px 0px;
+}
+.service-right-p{
+	margin-left: 60px;
+	text-align: left;
+}
+.service-right button{
+	margin-top: 100px;
+	margin-left: 60px;
+}
+.feature{
+	width: 100%;
+	height: 600px;
+	background-color:#fff;
+	text-align: center;
+}
+.feature-next .row{
+	margin: 60px auto;
+	display: table;
+}
+.feature-title{
+	font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+.feature .col-md-3{
+	width: 230px;
+	text-align: center;
+}
+.col-md-3 span{
+	font-size: 80px;
+	display: block;
+	width: 100px;
+	height: 80px;
+	margin: 60px auto;
+}
+.feature .col-md-3 h2{
+	text-align:center;
+	font-size: 20px;
+	font-weight: 900;
+}
+.feature-next p{
+	font-size: 18px;
+}
+.feature-next .col-md-3{
+margin: 0 33px;
+}
+.feature .col-md-3 p{
+	margin-top: 20px;
+}
+.flow-title{
+		font-size: 30px;
+	font-weight: 900;
+	text-align: center;
+}
+#tab-list{
+	margin-top: 50px;
+}
+#tab-list li{
+	font-weight: 700;
+	font-size: 20px;
+}
+
+#tab-one p,#tab-three p,#tab-five p{
+	font-size: 20px;
+	font-weight:500;
+	margin:100px 100px 50px 150px; 
+}
+#tab-one span,#tab-three span,#tab-five span{
+	font-size: 160px;
+	display: block;
+	width: 130px;
+	height: 100px;
+	margin:100px 60px 50px 50px;
+}
+#tab-two p,#tab-four p{
+font-size: 20px;
+	font-weight:500;
+	margin:100px 150px 50px 50px;
+}
+#tab-two span,#tab-four span{
+	font-size: 160px;
+	display: block;
+	width: 130px;
+	height: 100px;
+	margin:100px 100px 50px 250px; 
+}
+.flow{
+	height: 500px;
+}
+.modification h2{
+	text-align:center;
+	font-size: 30px;
+	font-weight: 900;
+}
+.modification .item img{
+	margin: 60px auto;
+	display: table;
+}
+.modification p{
+	font-size: 20px;
+	text-align: center;
+}
+.edit{
+	margin:0 100px 0 100px;
+	height: 550px;
+}
+.edit-title{
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+	margin-top: 50px;
+}
+.edit-p{
+	font-size: 15px;
+	text-align: center;
+	margin: 30px auto;
+	width: 900px;
+	font-weight: bold;
+}
+.edit-next span{
+	font-size: 80px;
+	display: block;
+	width: 80px;
+	height: 80px;
+	margin: 40px 100px 0 100px;
+}
+.edit-next h2{
+	margin-left:105px;
+	font-size: 21px;
+	font-weight:bolder;
+}
+.edit-next p{
+   font-weight: bold;
+   margin-left: 45px;
+   text-align: center;
+}
+.edit-next{
+	margin-top: -15px;
+}
+.foot{
+	margin:0 150px;
+}
+.foot-title{
+	font-size: 25px;
+	text-align: center;}
+.foot .btn{
+	display: block;
+	text-align: center;
+	width: 150px;
+	margin: 30px auto;
+}
+.foot .col-md-2 ul{
+	list-style: none;
+	display: block;
+}
+.foot .col-md-2 li{
+	height: 30px;
+	line-height: 30px;
+}
+.foot .col-md-2 h4{
+	font-weight: bold;
+}
+.copyright{
+	float: right;
+	margin-top: 50px;
+}

@@ -1,0 +1,67 @@
+<html>
+<head>
+<title>登录页面</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../bootstrap/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+
+<body>
+
+<div id="divLogin">
+<h3 class="font">用户登录</h3>
+
+<div id="content">
+  <div>用户：<input id="txtName" type="text" class="txt"/></div>
+  <div>密码：<input id="txtPass" type="password" class="txt"/></div>
+<div id="btncontent">
+  <input id="button1" type="button" value="登录" class="btn"/>&nbsp;&nbsp;
+  <input id="reset1" type="reset" value="取消" class="btn"/>
+</div>
+  <span id="divMsg" class="clsTip"></span>
+
+</div>
+
+<script type="text/javascript" src="2.1.4.js"></script>
+<script type="text/javascript" src="../bootstrap/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+
+<script>
+ $(function() {
+var height=document.documentElement.clientHeight;
+$(".item").each(function(index){
+$(this).css("height",height-22+"px");
+})
+
+$(".button1").bind("click",function(){
+	var txtName=$("#txtName");
+	var txtPass=$("#txtPass")；
+     str="user/login.api"+"?mail="+mail.val()+"&password="+pwd.val();
+     $.ajax({
+     	type:"post",
+     	url:str,
+     	dataType:"json",
+     	success:
+     	function(data){
+     		var json=eval(data);
+     		if(json["message"]==undefined){
+     			window.location.href="file:///F:/sublimetry/chat/chatmain.html;"
+     		}
+     		else{
+     			if (json["message"]=="NOTFOUND_ERROR") {txtName.after("</br><span class='error'>用户不存在</span>");
+     			}
+     			else if(json["message"]=="UNAUTHORIZED_ERROR"){
+     				txtPass.after("</br><span class='error'>密码错误</span>");
+     			}
+     			else{
+     				alert("不能为空")；
+     			}
+     		}
+     	}
+     })；
+ });
+});
+</script>
+</body>
+</html>

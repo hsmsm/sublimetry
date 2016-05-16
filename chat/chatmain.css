@@ -1,0 +1,52 @@
+.chatmain{
+margin:0 auto;
+width:700px;
+height:550px;
+font-family:"微软雅黑";
+border:solid 5px #ccc;
+}
+.chattop{
+width:700px;
+height:430px;
+font-size:13px;
+}
+.chattopleft{
+float:left;
+height:430px;
+overflow-y:scroll;
+width:490px;
+border:solid 1px #ccc;
+margin:4px;
+}
+.chattopright{
+float:left;
+height:430px;
+overflow-y:scroll;
+width:190px;
+border:solid 1px #ccc;
+margin:4px;
+}
+.txt{
+margin:4px;
+width:592px;
+height:70px;
+}
+.btn{
+height:30px;
+width:45px;
+margin-top:43px;
+margin-right:10px;
+font-size:15px;
+}
+.btn:hover,.btn:active{
+background:#708090;
+}
+.clsTip{
+height:25px;
+width::592px;
+}
+.Tip{
+font-size:12px;
+color:#708090;
+padding-left:4px;
+}

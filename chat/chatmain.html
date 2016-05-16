@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>聊天室</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="chatmain.css" />
+<script type="text/javascript" src="2.1.4.js"></script>
+<script type="text/javascript" src="chatmain.js"></script>
+</head>
+
+<body>
+<div class="chatmain">
+    <div class="chattop">
+       <div class="chattopleft">
+          <h3>此处是聊天框</h3>
+          <div id="content" class="divshow"></div>
+        </div>
+        <div class="chattopright">
+        <h3>当前在线人员</h3>
+           <div id="online" class="dicshow"></div>
+        </div> 
+     </div>
+   
+   <div class="chatbot">
+       <table cellpadding="0" cellspacing="0">
+       <tr>
+           <td><textarea id="txtcontent" cols="60" rows="3" class="txt"></textarea></td>           
+            <td><input type="reset" id=""reset1" value="取消" class="btn" /></td>
+            <td><input type="button" id=""button1" value="发送" class="btn" /></td>  
+        </tr>
+        <tr><td colspan="2" class="Tip">发送内容不能为空</td></tr>       
+</table>
+    <div>
+
+     <span id="divMsg" class="clsTip"></span>
+    
+</div>
+</body>
+</html>
